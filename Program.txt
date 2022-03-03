@@ -1,0 +1,16 @@
+Algorithm:
+
+step 1:  create function which with single parameter, which will take argument 1 or 0.
+step 2: Add expression using only operators from javascript which return output as below:
+         1 -> 0
+         0 -> 1
+
+Program:
+
+function compute(a)
+{
+    a=(a+1)%2;
+    return (a)
+}
+
+compute(1);
